@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EjB</title>
+</head>
+
+<style>
+    .container {
+        justify-content: space-between;
+    }
+
+    .box {
+        width: 100px;
+    }
+
+    .icono {
+        display: flex;
+        justify-content: left;
+
+    }
+
+    .icono img {
+        width: 60px;
+        height: 30px;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+
+    .barra {
+        width: 100%;
+        height: 45px;
+        background-color: black
+    }
+
+    .barra p {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .barra2 {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        justify-content: space-between;
+        background-color: whitesmoke;
+    }
+
+    .barra2 img {
+        justify-content: left;
+        height: 30px;
+        width: 30px;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+
+    .lista {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .lista-susc {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+
+    }
+
+    .lista-susc li {
+        border-right: 5px solid black;
+        padding-right: 15px;
+    }
+
+    .buscador {
+        display: flex;
+        justify-content: right;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .buscador img {
+        display: flex;
+        justify-content: right;
+        width: 40px;
+        height: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .barra3 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .buscador input {
+        border-radius: 15px;
+    }
+    /*
+.lista-susc li {
+    border-right: 2px solid black;
+}
+*/
+</style>
+
+<body>
+
+    <header class="container">
+        <div class="barra"> <!--Barra negra-->
+            <p style="color: white;">6 cuotas sin interés en todo el sitio</p>
+        </div>
+        <div class="barra2">
+            <div>
+                <img src="Jordanlg.svg" alt="Logo Jordan">
+            </div>
+            <div>
+                <ul class="lista-susc ">
+                    <li><a href="https://www.nike.com.ar/actualizacion-de-datos">Suscribite</a></li>
+                    <li><a href="https://www.nike.com.ar/locales">Buscar tienda</a></li>
+                    <li><a href="https://www.nike.com.ar/experiences">Eventos</a></li>
+                    <li>Ayuda</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="barra3">
+            <div class="icono">
+                <img src="logo.svg" alt="logo">
+            </div>
+            <nav>
+                <ul class="lista">
+                    <li> <b>Destacados</b></li>
+                    <li><b>Hombre</b></li>
+                    <li><b>Mujer</b></li>
+                    <li><b>Niño/a</b></li>
+                    <li><b>Accesorios</b></li>
+                    <li><b>Oportunidades</b></li>
+                </ul>
+            </nav>
+            <div class="buscador">
+                <input type="search" placeholder="Buscar"  >
+                <img src="bolsa.png" alt="bolsa">
+
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+</body>
+
+</html>
