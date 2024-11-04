@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+</head>
+
+<style>
+    .container {
+        justify-content: space-between;
+    }
+
+    .box {
+        width: 100px;
+    }
+
+    .icono {
+        display: flex;
+        justify-content: left;
+
+    }
+
+    .icono img {
+        width: 60px;
+        height: 30px;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+
+    .barra {
+        width: 100%;
+        height: 45px;
+        background-color: black
+    }
+
+    .barra p {
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .barra2 {
+        width: 100%;
+        display: flex;
+        height: 45px;
+        justify-content: space-between;
+        background-color: whitesmoke;
+    }
+
+    .barra2 img {
+        justify-content: left;
+        height: 30px;
+        width: 30px;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+
+    .lista {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .lista-susc {
+        display: flex;
+        gap: 15px;
+        list-style: none;
+
+    }
+
+    .lista-susc li {
+        border-right: 5px solid black;
+        padding-right: 15px;
+    }
+
+    .buscador {
+        display: flex;
+        justify-content: right;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .buscador img {
+        display: flex;
+        justify-content: right;
+        width: 40px;
+        height: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .barra3 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buscador input {
+        border-radius: 15px;
+    }
+
+    .cproductos {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .cproductos img {
+        width: 10px;
+        height: 10px;
+        margin-top: 20px;
+        margin-right: 5px;
+        margin-left: 3px;
+    }
+
+    .filtro {
+        display: flex;
+    }
+
+    .filtro p {
+        text-align: right;
+    }
+
+    .despliegue {
+        display: flex;
+    }
+
+    .despliegue p {
+        text-align: right
+    }
+
+    .barraf {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .productos {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .producto {
+        width: 300px;
+    }
+
+    .producto img {
+        width: 300px;
+        height: 300px;
+    }
+
+    footer {
+        background-color: black;
+        width: 100%;
+    }
+    #footer-nav {
+        display: flex;
+        justify-content: space-around;
+    }
+    #footer-nav2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul {
+        list-style: none;
+    }
+    .colorfli{
+        color: white;
+    }
+    .colorfla{
+        color: grey;
+    }
+</style>
+
+<body>
+
+    <header class="container">
+        <div class="barra"> <!--Barra negra-->
+            <p style="color: white;">6 cuotas sin interés en todo el sitio</p>
+        </div>
+        <div class="barra2">
+            <div>
+                <img src="Jordanlg.svg" alt="Logo Jordan">
+            </div>
+            <div>
+                <ul class="lista-susc ">
+                    <li><a href="https://www.nike.com.ar/actualizacion-de-datos">Suscribite</a></li>
+                    <li><a href="https://www.nike.com.ar/locales">Buscar tienda</a></li>
+                    <li><a href="https://www.nike.com.ar/experiences">Eventos</a></li>
+                    <li>Ayuda</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="barra3">
+            <div class="icono">
+                <img src="logo.svg" alt="logo">
+            </div>
+            <nav>
+                <ul class="lista">
+                    <li><b>Destacados</b></li>
+                    <li><b>Hombre</b></li>
+                    <li><b>Mujer</b></li>
+                    <li><b>Niño/a</b></li>
+                    <li><b>Accesorios</b></li>
+                    <li><b>Oportunidades</b></li>
+                </ul>
+            </nav>
+            <div class="buscador">
+                <input type="search" placeholder="Buscar">
+                <img src="bolsa.png" alt="bolsa">
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="cproductos">
+            <div>
+                <p><b>06 Productos</b></p>
+            </div>
+            <div class="barraf">
+                <div class="filtro">
+                    <p><b>Quitar filtros</b></p>
+                    <img src="Filtro.png" alt="">
+                </div>
+                <div class="despliegue">
+                    <p><b>Ordenar por mas reciente</b></p>
+                    <img src="despliegue.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="producto">
+                <img src="premier pelota.webp" alt="">
+                <p style="color: red;">Lo nuevo</p>
+                <p>Premier League Flight</p>
+                <p>Pelota de Futbol Unisex</p>
+                <p><b>$239.999</b></p>
+            </div>
+            <div class="producto">
+                <img src="phantom pelota.webp" alt="">
+                <p style="color: red;">Lo nuevo</p>
+                <p>Nike Phantom</p>
+                <p>Pelota de Futbol Unisex</p>
+                <p><b>$41.999</b></p>
+            </div>
+            <div class="producto">
+                <img src="gorra.png" alt="">
+                <p>Nike Club</p>
+                <p>Gorra de Moda Unisex</p>
+                <p><b>$39.999</b></p>
+            </div>
+        </div>
+        <div class="productos">
+            <div class="producto">
+                <img src="Bolso futbol.webp" alt="">
+                <p><B>Nike Academy Team</B></p>
+                <p>Bolso de Futbol Unisex - 41 L</p>
+                <p><b>$74.999</b></p>
+            </div>
+            <div class="producto">
+                <img src="Guantes.webp" alt="">
+                <p><b>Nike Dri-FIT Essential</b></p>
+                <p>Guantes de Entrenamiento Unisex</p>
+                <p><b>$42.999</b></p>
+            </div>
+            <div class="producto">
+                <img src="Botella nike.webp" alt="">
+                <p><b>Nike SS Recharge</b></p>
+                <p>Botella de Entrenamiento Unisex</p>
+                <p><b>$71.999</b></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-nav">
+            <ul>
+                <li><a class="colorfli" href="https://www.nike.com.ar/locales">BUSCAR TIENDA</a></li>
+                <li><a class="colorfli" href="https://www.nike.com.ar/actualizacion-de-datos">SUMATE A LA COMUNIDAD</a></li>
+                <LI><a class="colorfli" href="https://www.nike.com.ar/help/nota/como-sigo-mi-pedido">SEGUI TU PEDIDO</a></LI>
+            </ul>
+            <ul>
+                <li><a class="colorfli" href="https://www.nike.com.ar/help">AYUDA</a></li>
+                <LI><a class="colorfla" href="https://www.nike.com.ar/help/nota/envio-entrega">Envios y entregas</a></LI>
+                <li><a class="colorfla" href="https://www.nike.com.ar/help/nota/como-devuelvo">Devoluciones</a></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/help/nota/cambios">Cambios</a></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/devoluciones">Autogestionar mi devolucion</a></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/help/nota/metodos-de-pago">Opciones de pago</a></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/help/contactate">Contactate</a></li>
+                <li><a class="colorfla" href="https://buenosaires.gob.ar/gobierno/atencion-ciudadana/defensa-al-consumidor">Defensa al consumidor</a></li>
+                <li><p class="colorfla">Libros de quejas online</p></li>
+                <li><p class="colorfli" >Boton de arrepentimiento</p></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/help"><u>Ver todos</u></a></li>
+            </ul>
+            <ul>
+                <li><a class="colorfli" href="https://about.nike.com/es-419/">ACERCA DE NIKE</a></li>
+                <LI><a class="colorfla" href="https://about.nike.com/es-419/">Proposito</a></LI>
+                <li><a class="colorfla" href="https://about.nike.com/es-419/newsroom">Noticias</a></li>
+            </ul>
+            <ul>
+                <li><p class="colorfli">NOVEDADES NIKE</p></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/buscador-de-calzado">Encontra tu calzado</a></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/tops-deportivos">¿Como elegir tu top?</a></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/tips-saludables">Tips saludables</a></li>
+                <li><a class="colorfla" href="https://www.nike.com.ar/promociones">Promociones</a></li>
+            </ul>
+
+            <a href="https://servicioscf.afip.gob.ar/publico/denuncias/denunciaCD.aspx"><img src="Logo afip.webp" alt="" width="50px"></a>
+
+            <ul style="display: flex;">
+                <li style="margin-right: 5px;"><a href="https://x.com/Nike"><img src="twitter.png" alt="Twitter" width="30px"></a></li>
+                <li style="margin-right: 5px;"><a href="https://www.facebook.com/nike"> <img src="Facebook.png" alt="Facebook" width="30px"></a></li>
+                <li style="margin-right: 5px;"><a href="https://www.youtube.com/channel/UCUFgkRb0ZHc4Rpq15VRCICA"> <img src="youtube.png" alt="Youtube" width="30px"></a></li>
+                <li><a href="https://www.instagram.com/nike/"> <img src="Instagram.png" alt="Instagram" width="30px"></a></li>
+            </ul>
+        </div>
+        <div id="footer-nav2">
+            <div style="display: flex; align-items: center;">
+                <img src="gps.png" alt="Ubicacion" width="20px">
+                <a class="colorfli" href="https://www.nike.com/?geoselection=true">Argentina</a>
+                <p class="colorfla">© 2023 Southbay S.R.L. Todos los derechos reservados.</p>
+            </div>
+
+            <div>
+                <ul style="display: flex">
+                    <li><a class="colorfla" href="https://www.nike.com.ar/terminos-y-condiciones-hot-sale">Hot Sale</a></li>
+                    <li style="margin-left: 20px; margin-right: 20px;"><a class="colorfla" href="https://www.nike.com.ar/terminos-y-condiciones">Terminos y Condiciones</a></li>
+                    <li><a class="colorfla" href="https://www.nike.com.ar/politica-privacidad">Politica de privacidad y cookies</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
